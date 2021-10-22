@@ -1,0 +1,26 @@
+.blog{
+    border: 2px solid gray;
+    width: 100%;
+    margin: 5em auto;
+    height: inherit;
+}
+.blog-post{
+    display: flex;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 95%;
+    height: fit-content;
+    
+}
+.blog-vid{
+    border: 1px solid black;
+    margin: 2em 5px; 
+    float: left;
+    width: 60%;  
+}
+.blog-ctn{
+    border: 1px solid black;
+    margin: 2em 5px; 
+    float: left;
+    width: 40%;  
+}
