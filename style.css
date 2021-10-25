@@ -1,26 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0px;
+}
 .blog{
-    border: 2px solid gray;
+    margin-top: 10px;
     width: 100%;
-    margin: 5em auto;
+    border: 2px solid gray;
     height: inherit;
+    padding: 10px;
 }
 .blog-post{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 20px;
+    
     display: flex;
-    border: 1px solid black;
     margin: 10px auto;
     width: 95%;
     height: fit-content;
     
 }
 .blog-vid{
-    border: 1px solid black;
+    border-right: 1px solid black;
     margin: 2em 5px; 
     float: left;
     width: 60%;  
 }
 .blog-ctn{
-    border: 1px solid black;
+    border-left: 1px solid black;
     margin: 2em 5px; 
     float: left;
     width: 40%;  
+}
+.blog-ctn, .blog-vid{
+    
+    padding: 20px;
+
 }
